@@ -1,0 +1,100 @@
+.logo {
+   width: 350px;
+}
+
+.hero-image {
+    background-image: url("images/hiking-header.JPEG");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.top-right {
+    font-size: 3em;
+    color: #333;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    column-count: 3;
+    background: #3F4238;
+}
+
+
+#navbar {
+    overflow: hidden;
+    background: #333;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background: #A5A58D;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+footer {
+    background:#333;
+    color: #fff;
+}
+
+.search {
+    float: right;
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+
+img {
+    width: 400px;
+    
+}
+
+#footer a {
+    column-count: 6;
+    color: #fff;
+    text-decoration: none;
+    padding-right: 150px;
+}
+
+.home-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5em;
+}
+
+:root {
+    background: #B7B7A4;
+}

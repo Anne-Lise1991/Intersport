@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Intersport</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- hero image + text -->
+        <div class="hero-image">
+        <div class="header">
+        <img class="logo" src="images/intersport-2.PNG" alt="logo">
+
+            <p class="top-right">Hiking is the best form of <br>
+                sport to get in shape.<br>
+                Get your hiking gear here. </p>
+        </div>
+        
+        </div>
+
+        <!-- navbar -->
+        <div id="navbar">
+
+                <a href="#">Dame</a>
+                <a href="#">Herre</a>
+                <a href="#">Barn og Junior</a>
+                <a href="#">Sykkel</a>
+                <a href="#">Turutstyr</a>
+                <a href="#">Sportsutstyr</a>
+                <a href="#">Vinter</a>
+                <a href="#">Merker</a>
+                <input class="search" type="text" placeholder="Search...">
+
+        </div>
+        
+
+         <!-- main content -->
+        <div>
+            <img src="images/1.JPEG" alt="Hiking gear">
+            <img src="images/b0392323864590899160ea2643583e42.JPEG" alt="Hiking gear">
+            <img src="images/16dbe8b3d2e4a634d90b5741645b3d28.JPEG" alt="Hiking gear">
+            <img src="images/Essential-Hikers-Packing-List-for-All-Weather-Hikes-864x724.JPEG" alt="Hiking gear">
+            <img src="images/hiking-gear-5c15bb954cedfd0001a85910.JPEG" alt="Hiking gear">
+            <img src="images/ultralight_backpacking_gear_1024x1024.JPEG" alt="Hiking gear">
+
+        </div>
+   
+
+        <!-- footer -->
+        <footer id="footer">
+            <p> &copy Copyright </p>
+            <a href="om-intersport.html"> Om INTERSPORT </a>
+            <a href="#"> Hjelp </a>
+            <a href="#"> Kontakt oss </a>
+            <a href="#"> CLUB INTERSPORT </a>
+            <a href="#"> Om CLUB INTERSPORT </a>
+        </footer>
+       
+
+    
+    <!-- JavaScript for the navbar -->
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("navbar");
+
+      var sticky = navbar.offsetTop;
+
+        function myFunction() {
+  if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+  } else {
+         navbar.classList.remove("sticky");
+  }
+}
+    </script>
+    </body>
+</html>
